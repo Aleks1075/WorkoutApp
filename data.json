@@ -1,46 +1,22 @@
 {
- "todos": [
+  "workouts": [
     {
       "id": 1,
-      "todo": "Do something nice for someone I care about",
-      "completed": true,
-      "userId": 26
+      "name": "Push-ups",
+      "description": "A basic bodyweight exercise that targets chest and triceps.",
+      "muscles": "Chest, Triceps"
     },
     {
       "id": 2,
-      "todo": "Memorize the fifty states and their capitals",
-      "completed": false,
-      "userId": 48
+      "name": "Squats",
+      "description": "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
+      "muscles": "Quadriceps, Hamstrings, Glutes"
     },
     {
       "id": 3,
-      "todo": "Watch a classic movie",
-      "completed": false,
-      "userId": 4
-    },
-    {
-      "id": 4,
-      "todo": "Contribute code or a monetary donation to an open-source software project",
-      "completed": false,
-      "userId": 48
-    },
-    {
-      "id": 5,
-      "todo": "Solve a Rubik's cube",
-      "completed": false,
-      "userId": 31
-    },
-    {
-      "id": 6,
-      "todo": "Bake pastries for me and neighbor",
-      "completed": false,
-      "userId": 39
-    },
-    {
-      "id": 7,
-      "todo": "Go see a Broadway production",
-      "completed": false,
-      "userId": 32
+      "name": "Pull-ups",
+      "description": "An upper body exercise that targets the back and biceps.",
+      "muscles": "Back, Biceps"
     }
-    ]
+  ]
 }

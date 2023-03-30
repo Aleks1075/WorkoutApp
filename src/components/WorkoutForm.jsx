@@ -34,7 +34,7 @@ function WorkoutForm({ onSubmit }) {
         />
       </label>
       <label>
-        Muscles:
+        Muscle group:
         <input
           type="text"
           value={muscles}

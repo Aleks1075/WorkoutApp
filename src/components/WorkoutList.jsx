@@ -1,11 +1,11 @@
 import React from 'react';
 import Workout from './Workout';
 
-function WorkoutList({ workouts }) {
+function WorkoutList({ workouts, onDelete }) {
   return (
     <div>
       {workouts.map(workout => 
-        <Workout key={workout.name} workout={workout} />
+        <Workout key={workout.name} workout={workout} onDelete={onDelete}/>
       )}
       </div>
   );
